@@ -1,683 +1,105 @@
- <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="pt_BR"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<head>
-	<meta charset="utf-8">
-	<meta name="description" content="">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta content="Grud Comunicação Visual" name="description">
-	<meta content="Grud" name="keywords">
-	<title>Grud Comunicação Visual</title>
-    
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-
-
-	<!-- Font-awesome-4.3.0 -->
-	<link rel="stylesheet" type="text/css" href="vendor/font-awesome-4.7.0/css/font-awesome.css" media="screen" />
-
-	<!-- Flat Icon -->
-	<link rel="stylesheet" type="text/css" href="vendor/flaticon/flaticon.css" />
-
-	<!-- Bootstrap v3.3.7-->
-	<link type="text/css" rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
-	<!-- slider pro -->
-	<link type="text/css" rel="stylesheet" href="vendor/slider-pro/css/slider-pro.css">
-	<!-- Owl carousel   -->
-	<link type="text/css" rel="stylesheet" href="vendor/OwlCarousel-2/css/owl.carousel.css">
-	<link type="text/css" rel="stylesheet" href="vendor/OwlCarousel-2/css/owl.theme.default.css">
-
-	<link rel="stylesheet" type="text/css" href="vendor/Magnific-Popup/magnific-popup.css">
-
-	<!-- Animate css-->
-	<link type="text/css" rel="stylesheet" href="css/animate.css">
-
-	<!-- Theme css-->
-	<link type="text/css" rel="stylesheet" href="css/style.css">
-
-	<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<script>window.html5 || document.write('<script src="js/html5shiv.js"><\/script>')
-	</script>
-	<![endif]-->
-</head>
-<body>
-
-<!-- LOADER TEMPLATE -->
-<div id="page-loader">
-  <div class="loader-icon fa fa-spin colored-border"></div>
-</div>
-<!-- /LOADER TEMPLATE -->
-
-<div class="color-bar"></div>
-
-
-<header class="header">
-	<nav class="navbar home-style1">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Main-nav">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Smartweb" class="img-responsive"></a>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse main-nav" id="Main-nav" >
-				<!-- main menu items -->
-				<ul class="nav navbar-nav navbar-right">
-					<li class="">
-						<a href="grud-comunicacao-visual.html">A GRUD</a><span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-					</li>
-					<li class="dropdown">
-						<a href="servicos.html">SERVIÇOS </a><span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
-						<ul class="dropdown-child">
-							<li><a href="comunicacao-visual.html">Comunicação Visual</a></li>
-							<li><a href="sinalizacao.html">Sinalização</a></li>
-							<li><a href="decoracao-de-interiores.html">Decoração de Interiores</a></li>
-                            <li><a href="grafica.html">Gráfica</a></li>
-						</ul>
-                    </li>
-					<li class="">
-						<a href="tecnologia.html">Tecnologia</a>
-					</li>
-					<li class="">
-						<a href="contato.html">Contato</a>
-					</li>
-                    <li class="active">
-						<a href="catalogo/index.html" style="background-color:#009e57 !important">Catálogo Placas</a>
-					</li>
-				</ul>
-				<!-- end of main menu items -->
-			</div>
-			<!-- navbar-collapse -->
-		</div>
-		<!-- container-fluid -->
-	</nav>
-</header> 
-
-<!-- home slider -->
-<div class="slider-pro sp-nav" id="index-slider2" data-slider-width="1920" data-slider-height="630">
-	<div class="sp-thumbnails">
-	  <div class="sp-thumbnail text-center sp-thumb-color1">
-			<div class="sp-thumbnail-icon"><img src="images/icons/printing-home.png" width="32" height="32" alt=""/></div>
-			<div class="sp-thumbnail-title">Comunicação Visual</div>
-			<div class="sp-thumbnail-description">A solução certa para a sua empresa</div>
-		</div>
-
-		<div class="sp-thumbnail text-center sp-thumb-color2">
-			<div class="sp-thumbnail-icon"><img src="images/icons/technological.png" width="32" height="32" alt=""/></div>
-			<div class="sp-thumbnail-title">Tecnologia</div>
-			<div class="sp-thumbnail-description">Estrutura com equipamentos de última geração</div>
-		</div>
-
-		<div class="sp-thumbnail text-center sp-thumb-color3">
-			<div class="sp-thumbnail-icon"><img src="images/icons/home-repair-home.png" width="32" height="32" alt=""/></div>
-			<div class="sp-thumbnail-title">Decoração de Interiores</div>
-			<div class="sp-thumbnail-description">Adesivos e Mandalas para decoração</div>
-		</div>
-
-		<div class="sp-thumbnail text-center sp-thumb-color4">
-			<div class="sp-thumbnail-icon"><img src="images/icons/graphic-tool-home.png" width="32" height="32" alt=""/></div>
-			<div class="sp-thumbnail-title">Placas de Sinalização</div>
-			<div class="sp-thumbnail-description">Sinalização Industrial e Predial</div>
-		</div>
-	</div>
-	<div class="sp-slides">
-		<!-- Slide 1 -->
-		<div class="sp-slide">
-			<iframe id="ytplayer" type="text/html" width="1920" height="1080" src="https://www.youtube.com/embed/po3DL14B0E0?autoplay=1&controls=0&disablekb=1&enablejsapi=1&loop=1&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-			<h2 class="sp-layer sp-black sp-caption-title" 
-				data-horizontal="23%" data-vertical="30%" data-show-delay="300"
-				data-show-transition="left" data-hide-transition="left">
-				UMA AMPLA VARIEDADE DE SOLUÇÕES GRÁFICAS
-			</h2>
-
-			<p class="sp-layer sp-black sp-caption-description" 
-				data-horizontal="23%" data-vertical="48%" 
-				data-show-transition="right" data-show-delay="900" data-hide-transition="left">
-				Com mais de 28 anos no mercado, <br/>garantimos aos nossos clientes desde simples impressões à grandes projetos corporativos
-			</p>
-		</div>
-		<!-- End of Slide 1 -->
-		<!-- Slide 2 -->
-		<div class="sp-slide">
-			<img class="sp-image" src="images/slider2.jpg" height="630" width="1920" alt="slider 2"/>
-			<h2 class="sp-layer sp-black sp-caption-title" 
-				data-horizontal="23%" data-vertical="30%" data-show-delay="300"
-				data-show-transition="left" data-hide-transition="left">
-				EQUIPAMENTOS DE ÚLTIMA GERAÇÃO
-			</h2>
-
-			<p class="sp-layer sp-black sp-caption-description" 
-				data-horizontal="23%" data-vertical="48%" 
-				data-show-transition="right" data-show-delay="900" data-hide-transition="left">
-				Trazendo para Campinas e região, novos equipamentos e soluções,<br/>sempre superando as expectativas e com rapidez
-			</p>
-		</div>
-		<!-- End of Slide 2 -->
-		<!-- Slide 3 -->
-		<div class="sp-slide">
-			<img class="sp-image" src="images/slider3.jpg" height="630" width="1920" alt="slider 3"/>
-			<h2 class="sp-layer sp-black sp-caption-title" 
-				data-horizontal="23%" data-vertical="30%" data-show-delay="300"
-				data-show-transition="left" data-hide-transition="left">
-				DEIXE O SEU AMBIENTE MAIS BONITO
-			</h2>
-
-			<p class="sp-layer sp-black sp-caption-description" 
-				data-horizontal="23%" data-vertical="48%" 
-				data-show-transition="right" data-show-delay="900" data-hide-transition="left">
-				Na hora de decorar um ambiente buscamos beleza, <br/>sofisticação e temas que possam transmitir boas energias
-			</p>
-		</div>
-		<!-- End of Slide 3 -->
-		<!-- Slide 4 -->
-		<div class="sp-slide">
-			<img class="sp-image" src="images/slider4.jpg" height="630" width="1920" alt="slider 2"/>
-			<h2 class="sp-layer sp-black sp-caption-title" 
-				data-horizontal="23%" data-vertical="30%" data-show-delay="300"
-				data-show-transition="left" data-hide-transition="left">
-				Placas de Sinalização Industrial e Predial
-			</h2>
-
-			<p class="sp-layer sp-black sp-caption-description" 
-				data-horizontal="23%" data-vertical="48%" 
-				data-show-transition="right" data-show-delay="900" data-hide-transition="left">
-				Sinalização e divulgação para todos os tipos de necessidades,<br/>com recortes e acabamentos especiais
-			</p>
-		</div>
-		<!-- End of Slide 4 -->
-	</div>
-</div>
-<!-- END OF home slider -->
-
-
-<section class="about-us">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-sm-12">
-				<div class="video-widget">
-							<div class="video gallery">
-								<a href="https://www.youtube.com/watch?v=YCOv6MMGW9M" class="mfp-iframe" data-effect="mfp-zoom-in"> 
-									<img src="images/empresa.jpg" alt="" class="img-responsive"> 
-									<span class="mask-icon">
-										<i class="fa fa-play"></i>
-									</span>
-								</a>
-							</div>
-						</div> 
-			</div>
+  <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta charset="utf-8">
+          
+          <!-- FAVICON -->
+          <link rel="shortcut icon" href="assets/favicon.ico">
+          
+          <!-- PAGE TITLE -->
+          <title>GCIA.cc || Comunicação Criativa</title>
+          
+          <!-- GOOGLE FONTS -->
+          <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:300,400,500|Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+          
+          <!-- STYLESHEETS -->
+          <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+          <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+          <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css" />
+          <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+              
+  </head>
+  <body>
+  
+      <!-- BACKGROUND -->
+      <div id="bg-pattern"></div>
+      <div id="bg-darker"></div>
+      <!-- /BACKGROUND -->
+      
+      
+      
+      
+      <!-- PRELOADER -->
+      <div id="prelaoder">
+        <div class="socket">
+          <img src="assets/img/spinner.png">
+        </div>
+      </div>
+      <!-- /PRELOADER -->
+        
+        
+      <!-- FRONT CONTENT -->
+      <div id="front-page">
+        
+          <!-- HOME SCREEN -->
+          <div id="home-screen">
+          
+              <div id="canvas-container">
+                  <canvas id="gravity"></canvas> 
+              </div>
+              
+              <!-- CONTENT BLOCK -->
+              <div class="content-block animated">
+              
+                  <div class="container animated">
+                  
+                    <img class="logo" src="assets/img/logo.png">
+                    
+                    <div class="slider">
+                    
+                       <div class="slide"> <h1>COMUNICAÇÃO <br> CRIATIVA.</h1> </div>
+                     
+                       <div class="slide"> <h1>SOLUÇÕES ON-LINE <span> & </span> <br> OFF-LINE.</h1> </div>
+                       
+                    </div>
+      
+                    <p>(19) 98834.8971</p>
+                    
+                    <!-- OPEN OVERLAY -->
+                    <!-- /OPEN OVERLAY -->
+                    
+                  </div>
+                
+              </div>
+              <!-- /CONTENT BLOCK -->
+              
+          </div>
+          <!-- /HOME SCREEN -->
+   
+      </div>
+      <!-- /FRONT CONTENT -->
+      
+      
+      <!-- CLIENTES --> 
             
-			<div class="col-md-6 col-sm-12">
-				<div class="about-us-tab smartweb-tab-2">
-					<!-- Tab panes -->
-					<div class="tab-content">
-						<div role="tabpanel" class="tab-pane active" id="about-tab1">
-							<h3 class="tab-title">São <span>28 anos</span> de mercado</h3>
-							<div class="tab-content-body">
-								<p>A Grud Adesivos, com mais de 28 anos no mercado, trona-se agora a Grud Comunicação Visual e traz para você e para a sua empresa novos serviços, capazes de unir qualidade incomparável, praticidade, produtividade e personalização.</p>
-                                <p>Com estrutura moderna e planejada, garantimos aos nossos clientes desde simples impressões à grandes projetos corporativos. Atentos à tecnologia e novidades do mercado, conseguimos garantir excelentes resultados com eficiência e qualidade, com equipamentos de última geração. Buscamos constantemente investir nas melhores soluções, o que faz com que nossos serviços tenham qualidade e que possam melhor atendê-lo.</p>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane" id="about-tab2">
-							<h3 class="tab-title">Equipamentos de <span>Última Geração</span></h3>
-							<div class="tab-content-body">
-								<p>A Grud Comunicação Visual traz para Campinas e Região novos equipamentos e soluções. Sempre superando as expectativas com os nosso clientes, seja ela na rapidez, na qualidade ou no atendimento. Estamos evoluindo para que você, nosso cliente especial, possa continuar trabalhando conosco nesta parceria a qual todos saem ganhando.</p>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane" id="about-tab3">
-							<h3 class="tab-title">Impressão de <span>Qualidade</span></h3>
-							<div class="tab-content-body">
-								<p>Contando com máquinas de última geração e profissionais capacitados, a Grud Comunicação Visual oferece ao mercado o que há de mais avançado em tecnologia e qualidade para impressão. Em nossa constante busca pela excelência de nossos produtos e serviços, estamos expandindo cada vez mais nosso atendimento.</p>
-                                <p>Entregamos uma impressão em alta definição com nossos equipamentos e técnicas de última geração, possibilitando qualidade nas mídias de divulgação utilizadas por nossos clientes.</p>
-							</div>
-						</div>
-					</div>
+      <!-- /CLIENTES --> 
+      
+      <!-- OVERLAY CONTACT -->  
+       
+      <!-- /OVERLAY CONTACT -->    
+      
+    
+     
 
-					<!-- Nav tabs -->
-					<ul class="nav about-tabs" role="tablist">
-						<li role="presentation" class="about-tab active"><a href="#about-tab1" aria-controls="about-tab1" role="tab" data-toggle="tab">Anos de Experiência</a></li>
-						<li role="presentation" class="about-tab"><a href="#about-tab2" aria-controls="about-tab2" role="tab" data-toggle="tab">Tecnologia e Inovação</a></li>
-						<li role="presentation" class="about-tab"><a href="#about-tab3" aria-controls="about-tab3" role="tab" data-toggle="tab">Qualidade</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+      <!-- JAVASCRIPTS -->
+      <script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
+      <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="assets/js/jquery.cycle.min.js"></script>
+      <script type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>
+      <script type="text/javascript" src="assets/js/scripts.js"></script>
 
-<section class="call-to-action">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="call-action-wrap">
-					<div class="row">
-						<div class="col-sm-8 col-xs-12">
-							<h2>Quer conhecer nossos serviços?</h2>
-							<h3>Entre em contato agora mesmo com um de nossos consultores.</h3>
-						</div>
-						<div class="col-sm-4 col-xs-12">
-							<div class="button-group">
-								<a href="#" class="hire-me">Formulário de Contato</a>
-								<a href="#" class="hire-skype">Atendimento On-line</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+  </body>
 
-<!-- latest project -->
-<!--<section class="latest-project top-gap-100">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="section-title">
-					<h3 class="main-title">Projetos Recentes</h3>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="slider-service owl-carousel owl-theme carousel-slider"
-					data-margin="15"
-					data-min480="1"
-					data-min768="2"
-					data-min992="3"
-					data-min1200="3"
-					data-loop="true"
-					data-video="false"
-					data-center="false"
-					data-pagination="false"
-					data-navigation="true"
-					data-auto-play="true"
-					data-autoplay-Timeout="8000"
-					data-stop-on-hover="false">
-					
-					<div class="carousel_item">
-						<div class="project-item">
-							<div class="project-image">
-								<img src="images/project1.jpg" alt="project 1" class="img-responsive">
-							</div>
-							<div class="project-hover-mask">
-								<div class="mask-container text-center">
-									<h4>IMPRESSÃO DIGITAL</h4>
-									<div class="divider-border"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim enim, pharetra in sodales at, interdum sit amet dui.</p>
-									<a href="images/project1.jpg" class="image-link" data-effect="mfp-zoom-in" ><i class="flaticon-arrows-2"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="carousel_item">
-						<div class="project-item">
-							<div class="project-image">
-								<img src="images/project2.jpg" alt="project 1" class="img-responsive">
-							</div>
-							<div class="project-hover-mask">
-								<div class="mask-container text-center">
-									<h4>IMPRESSÃO DIGITAL</h4>
-									<div class="divider-border"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim enim, pharetra in sodales at, interdum sit amet dui.</p>
-									<a href="images/project2.jpg" class="image-link" data-effect="mfp-zoom-in" ><i class="flaticon-arrows-2"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="carousel_item">
-						<div class="project-item">
-							<div class="project-image">
-								<img src="images/project3.jpg" alt="project 1" class="img-responsive">
-							</div>
-							<div class="project-hover-mask">
-								<div class="mask-container text-center">
-									<h4>IMPRESSÃO DIGITAL</h4>
-									<div class="divider-border"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim enim, pharetra in sodales at, interdum sit amet dui.</p>
-									<a href="images/project3.jpg" class="image-link" data-effect="mfp-zoom-in" ><i class="flaticon-arrows-2"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="carousel_item">
-						<div class="project-item">
-							<div class="project-image">
-								<img src="images/project4.jpg" alt="project 1" class="img-responsive">
-							</div>
-							<div class="project-hover-mask">
-								<div class="mask-container text-center">
-									<h4>IMPRESSÃO DIGITAL</h4>
-									<div class="divider-border"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim enim, pharetra in sodales at, interdum sit amet dui.</p>
-									<a href="images/project4.jpg" class="image-link" data-effect="mfp-zoom-in" ><i class="flaticon-arrows-2"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="carousel_item">
-						<div class="project-item">
-							<div class="project-image">
-								<img src="images/project5.jpg" alt="project 1" class="img-responsive">
-							</div>
-							<div class="project-hover-mask">
-								<div class="mask-container text-center">
-									<h4>IMPRESSÃO DIGITAL</h4>
-									<div class="divider-border"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim enim, pharetra in sodales at, interdum sit amet dui.</p>
-									<a href="images/project5.jpg" class="image-link" data-effect="mfp-zoom-in" ><i class="flaticon-arrows-2"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="carousel_item">
-						<div class="project-item">
-							<div class="project-image">
-								<img src="images/project6.jpg" alt="project 1" class="img-responsive">
-							</div>
-							<div class="project-hover-mask">
-								<div class="mask-container text-center">
-									<h4>IMPRESSÃO DIGITAL</h4>
-									<div class="divider-border"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim enim, pharetra in sodales at, interdum sit amet dui.</p>
-									<a href="images/project6.jpg" class="image-link" data-effect="mfp-zoom-in" ><i class="flaticon-arrows-2"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>-->
-
-
-
-<!-- work-progress -->
-<section class="work-progress bottom-padding-off">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="section-title">
-					<h3 class="main-title">Fortaleça a imagem da sua empresa</h3>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12 workprocess-tab smartweb-tab-1">
-				<!-- Nav tabs -->
-				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="color_tab_1 active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><span>01</span>Soluções</a></li>
-					<li role="presentation" class="color_tab_2"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><span>02</span>Criação</a></li>
-					<li role="presentation" class="color_tab_3"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><span>03</span>Impressão</a></li>
-					<li role="presentation" class="color_tab_4"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><span>04</span>Instalação</a></li>
-				</ul>
-
-				<!-- Tab panes -->
-				<div class="tab-content">
-					<div role="tabpanel" class="tab-pane active" id="home">
-						<div class="row">
-							<div class="col-md-6 col-sm-12">
-								<h3 class="tab-title">As melhores soluções para a sua empresa</h3>
-								<p>Sabia que a Grud Comunicação Visual pode ser sua melhor aliada na produção de impressos e nos mais variados produtos? Sobretudo quando nossos clientes solicitam um projeto “para ontem”. Contar com os nossos serviços garante agilidade no processo de obtenção do produto final, trabalhando com prazos mais velozes e garantindo a finalização do projeto em tempo hábil.</p>
-								<div class="tab-acc-panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-								  	<div class="panel tab-acc-panel">
-									    <div class="tab-acc-panel-heading" role="tab" id="headingOne">
-									      <h5 class="tab-acc-panel-title">
-									        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-									          Valor agregado <span class="acc_toggle_icon"></span>
-									        </a>
-									      </h5>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									      <div class="tab-acc-body">
-									         Utilizamos da criatividade para explorar ao máximo os recursos de nossas estruturas e equipamentos, se destacando no mercado, oferecendo serviços com maior valor agregado para todos os tipos de públicos.
-									      </div>
-									    </div>
-									</div>
-									<div class="panel tab-acc-panel">
-									    <div class="tab-acc-panel-heading" role="tab" id="headingTwo">
-									      <h5 class="tab-acc-panel-title">
-									        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									          Impressão de qualidade com materiais premium <span class="acc_toggle_icon"></span>
-									        </a>
-									      </h5>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-									      <div class="tab-acc-body">
-									        Com estrutura moderna e planejada, garantimos aos nossos clientes desde simples impressões à grandes projetos corporativos. Atentos à tecnologia e novidades do mercado, conseguimos garantir excelentes resultados com eficiência e qualidade, com equipamentos de última geração.
-									      </div>
-									    </div>
-									</div>
-									<div class="panel tab-acc-panel">
-									    <div class="tab-acc-panel-heading" role="tab" id="headingThree">
-									      <h5 class="tab-acc-panel-title">
-									        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-									          Vamos até você <span class="acc_toggle_icon"></span>
-									        </a>
-									      </h5>
-									    </div>
-									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-									      <div class="tab-acc-body">
-									        A Grud Comunicação Visual está sediada em Campinas/SP. De acordo com a necissade de nossos clientes, buscamos encontrar as melhores soluções em visitas ao local ou sede do clientes em toda região.
-									      </div>
-									    </div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-12">
-								<img src="images/ilus-imagem1.jpg" alt="work process" class="img-responsive">
-							</div>
-						</div>
-					</div>
-					<div role="tabpanel" class="tab-pane" id="profile">
-						<div class="row">
-							<div class="col-md-6 col-sm-12">
-								<h3 class="tab-title">Criação da sua Identidade Visual <span class="acc_toggle_icon"></span></h3>
-								<p>Através da identidade visual uma marca se destaca entre as outras, não só pelo layout em si, mas uma linha de comunicação que reflete toda a força, comprometimento, qualidade e competência da empresa. Trabalhamos desenvolvendo projetos gráficos com o melhor acabamento e seguindo uma linha de comunicação coerente para todas as áreas de sua empresa.</p>
-                                <p>A área criativa da Grud Comunicação Visual é responsável pela criação e impressão de toda a imagem vinculada á sua empresa. Nos dias atuais é preciso mostrar ao público alvo que por trás da qualidade de sua empresa existe coerência que atende por um determinado nome e se apresenta de determinada forma. Um projeto bem feito para criação da sua identidade visual atrairá ainda mais seus clientes em potencial, pois a sua marca se comunicará com o seu público perfeitamente.</p> 
-								
-							</div>
-							<div class="col-md-6 col-sm-12">
-								<img src="images/ilus-imagem2.jpg" alt="work process" class="img-responsive">
-							</div>
-						</div>
-					</div>
-					<div role="tabpanel" class="tab-pane" id="messages">
-						<div class="row">
-							<div class="col-md-6 col-sm-12">
-								<h3 class="tab-title">Impressão de qualidade com materiais premium</h3>
-								<p>Aós concluir todo o projeto de comunicação de sua empresa, você precisa garantir que a qualidade e impressão continue seguindo o mesmo padrão de excelência. A Grud Comunicação Visual vai garantir isso no projeto, oferecendo o que há de mais avançado em tecnologia e qualidade na impressão, sem perder a identidade projetada para o cliente. </p>
-                                <p>A Grud Comunicação Visual entregará a impressão em alta definição com seus equipamentos e técnicas de última geração, possibilitando qualidade nas mídias de divulgação definidas em todo o projeto.</p>
-							</div>
-							<div class="col-md-6 col-sm-12">
-								<img src="images/ilus-imagem3.jpg" alt="work process" class="img-responsive">
-							</div>
-						</div>
-					</div>
-					<div role="tabpanel" class="tab-pane" id="settings">
-						<div class="row">
-							<div class="col-md-6 col-sm-12">
-								<img src="images/ilus-imagem4.jpg" alt="work process" class="img-responsive bottom-gap-30">
-							</div>
-							<div class="col-md-6 col-sm-12">
-								<h3 class="tab-title">Vamos até o local para a instalação de todo tipo de comunicação</h3>
-								<p>A Grud Comunicação visual possui equipes qualificadas, com o corpo técnico preparado para atender e resolver as necessidades dos mais variados tipos de serviços em comunicação visual. Isso se aplica na entrega de materiais e na instalação de mídias, que vão desde placas de sinalização à lonas especiais. Uma gama completa de serviços e suporte na instalação, para que sua empresa apresente da melhor maneira a sua marca e conquiste novos clientes.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- clientes -->
-<section class="clientes">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="section-title">
-					<h3 class="main-title">Nossos Clientes</h3>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="slider-service owl-carousel owl-theme carousel-slider"
-					data-margin="10"
-					data-min480="1"
-					data-min768="2"
-					data-min992="3"
-					data-min1200="4"
-					data-loop="true"
-					data-video="false"
-					data-center="false"
-					data-pagination="false"
-					data-navigation="true"
-					data-auto-play="true"
-					data-autoplay-Timeout="8000"
-					data-stop-on-hover="true">
-
-					<div class="carousel_item">
-						<div class="clientes-wrap">
-							<img src="images/clientes1.png" class="grayscale" alt="client logo">
-						</div>
-					</div>
-					<div class="carousel_item">
-						<div class="clientes-wrap">
-							<img src="images/clientes2.png" class="grayscale" alt="client logo">
-						</div>
-					</div>
-					<div class="carousel_item">
-						<div class="clientes-wrap">
-							<img src="images/clientes3.png" class="grayscale" alt="client logo">
-						</div>
-					</div>
-					<div class="carousel_item">
-						<div class="clientes-wrap">
-							<img src="images/clientes4.png" class="grayscale" alt="client logo">
-						</div>
-					</div>
-					<div class="carousel_item">
-						<div class="clientes-wrap">
-							<img src="images/clientes5.png" class="grayscale" alt="client logo">
-						</div>
-					</div>
-                    <div class="carousel_item">
-						<div class="clientes-wrap">
-							<img src="images/clientes6.png" class="grayscale" alt="client logo">
-						</div>
-					</div>
-                    <div class="carousel_item">
-						<div class="clientes-wrap">
-							<img src="images/clientes7.png" class="grayscale" alt="client logo">
-						</div>
-					</div>
-                    <div class="carousel_item">
-						<div class="clientes-wrap">
-							<img src="images/clientes8.png" class="grayscale" alt="client logo">
-						</div>
-					</div>
-                    <div class="carousel_item">
-						<div class="clientes-wrap">
-							<img src="images/clientes9.png" class="grayscale" alt="client logo">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- footer -->
- <footer id="main-footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="widget-area">
-					<div class="widget-social">
-						<h5 class="widget-title">COMPRE NOSSOS PRODUTOS</h5>
-						<div class="social-widget">
-							<ul>
-								<li><a href="#"><i class="fa"></i></a></li>
-                                <li><a href="#"><i class="fa"></i></a></li>
-                                <li><a href="#"><i class="fa"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-8">
-				<div class="widget-area">
-					<div class="widget-contact">
-						<h5 class="widget-title">contato</h5>
-						<div class="contact-info-widget">
-							<ul>
-								<li><i class="flaticon-home"></i> <span>Rua Pedregulhos, 63 – Chácara da Barra – Campinas/SP</span> </li>
-								<li><i class="flaticon-technology-2"></i> <span>(19) 3252-9715</span></li>
-								<li><i class="flaticon-note"></i> <span><a href="#">E-mail</a></span></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="copyright-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-4">
-					<p class="copytext">© 2017 Copyright <a href="#">Grud Comunicação Visual</a>.<br>
-Todos os direitos reservados</p> by GCIA.cc
-				</div>
-				<div class="col-xs-12 col-sm-8">
-					<div class="footer-bottom-menu">
-						<ul>
-							<li><a href="comunicacao-visual.html">A GRUD</a></li>
-							<li><a href="servicos.html">SERVIÇOS</a></li>
-							<li><a href="tecnologia.html">TECNOLOGIA</a></li>
-							<li><a href="servicos.html">SERVIÇOS</a></li>
-							<li><a href="contato.html">CONTATO</a></li>
-							<li><a href="catalogo/index.html">CATÁLOGO PLACAS</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
-
-
-<div class="scroll-top">
-    <i class="fa fa-angle-up" aria-hidden="true"></i>
-</div>	
-
-	<!-- all js plugin files -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="vendor/Magnific-Popup/jquery.magnific-popup.min.js"></script>
-	<script type="text/javascript" src="vendor/slider-pro/js/jquery.sliderPro.min.js"></script>
-	<script type="text/javascript" src="vendor/OwlCarousel-2/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="js/jquery.shuffle.min.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
-	<!-- client add custom script in this file-->
-	<script type="text/javascript" src="js/custom.js"></script>
-</body>
-
-</html> 
+</html>
