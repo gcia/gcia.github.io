@@ -328,6 +328,134 @@ border-radius: .25rem;  border-left-color: #d9534f !important">
     
 </section>
 
+<!-- INÍCIO LANCHES -->
+<section id="LANCHES MANHÃ / TARDE / NOITE">
+  <div class="row">
+    <div class="text-center col-md-12">
+      <div class="well"><h1>Lanches</h1></div>
+    </div>
+  </div>
+  
+  <div class="row">
+  <div class="col-xs-12 col-lg-4">
+    <div class="card" style="width: 100%;">
+  <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_162ab9b52a2%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_162ab9b52a2%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22118.06666564941406%22%20y%3D%2297.5%22%3E318x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Lanche da Manhã</h4>
+  </div>
+  <div class="col-md-12">
+        <select id="g2" class="h2" style="margin-top: 0px; margin-bottom: 0px; width: 80%; text-align: center;">
+            <option value="1 fruta">Sobremesa</option>
+            <option value="1 colher cheia (sopa)">Abacate</option>
+            <option value="1 fatia tam. médio">Abacaxi</option>
+            <option value="2 unid. tam. Médio">Ameixa verm.</option>
+            <option value="1 unid. tam. Médio">Banana-maçã</option>
+            <option value="1 unid. tam. Peq.">Banana-nanica</option>
+            <option value="2 unid. tam. Médio">Caju</option>
+            <option value="1 unid. tam. Médio">Figo</option>
+            <option value="1 unid. tam. Peq.">Goiaba</option>
+            <option value="2 pires de chá">Jaboticaba</option>
+            <option value="1 unid. tam. Médio">Laranja</option>
+            <option value="1/2 unid. tam. médio">Maçã</option>
+            <option value="1 fatia tam. médio">Mamão</option>
+            <option value="1 unid. tam. grande">Maracujá</option>
+            <option value="1 fatia tam. grande">Melancia</option>
+            <option value="1 fatia tam. grande">Melão</option>
+            <option value="8 unidades">Morango</option>
+            <option value="1/2 unidade">Pêra</option>
+            <option value="1 unid. tam. grande">Pêssego</option>
+            <option value="1 unid. tam. médio">Tangerina</option>
+            <option value="12 unidades">Uva</option>
+        </select>
+        <button type="button" onclick="qtdG2()" class="btn btn-primary" style="margin-bottom: 15px; margin-left: 15px;">OK</button>
+        <script>
+			function qtdG2() {
+				var x = document.getElementById("g2").value;
+				document.getElementById("valor-g2").innerHTML = x;
+			}
+		</script>
+      </div>
+  <div class="col-md-12 text-center">
+  	<p id="valor-g2" style="font-size:25px; border: 1px solid #eee;border-left-width: .50rem; border-radius: .25rem;  border-left-color: #d9534f !important"></p>
+  </div>
+</div>
+    
+  </div>
+  <div class="col-lg-4">
+    <div class="card" style="width: 100%;">
+  <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_162ab9b52a2%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_162ab9b52a2%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22118.06666564941406%22%20y%3D%2297.5%22%3E318x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Lanche da Tarde</h4>
+  </div>
+  	<div class="col-md-12">
+        <select id="y" class="h2" style="margin-top: 0px; margin-bottom: 0px; width: 80%; text-align: center;">
+            <option value="à vontade">Chá com adoçante</option>
+            <option value="à vontade">Café</option>
+            <option value="à vontade">Limonada</option>
+        </select>
+        <button type="button" onclick="qtdY()" class="btn btn-primary" style="margin-bottom: 15px; margin-left: 15px;">OK</button>
+        <script>
+			function qtdY() {
+				var x = document.getElementById("y").value;
+				document.getElementById("valor-y").innerHTML = x;
+			}
+		</script>
+  	</div>
+    <div class="col-md-12 text-center">
+  		<p id="valor-y" style="font-size:25px; border: 1px solid #eee;border-left-width: .50rem; border-radius: .25rem;  border-left-color: #d9534f !important"></p>
+  	</div>
+  <div class="col-md-12">
+        <select id="f2" class="h2" style="margin-top: 0px; margin-bottom: 0px; width: 80%; text-align: center;">
+            <option value="1/2 unidade">Pão</option>
+            <option value="2 unidades">Bolacha salgada</option>
+            <option value="1 fatia">Pão de forma</option>
+            <option value="2 Fatias">Torrada</option>
+        </select>
+        <button type="button" onclick="qtdF2()" class="btn btn-primary" style="margin-bottom: 15px; margin-left: 15px;">OK</button>
+        <script>
+			function qtdF2() {
+				var x = document.getElementById("f2").value;
+				document.getElementById("valor-f2").innerHTML = x;
+			}
+		</script>
+  	</div>
+    <div class="col-md-12 text-center">
+  	<p id="valor-f2" style="font-size:25px; border: 1px solid #eee;border-left-width: .50rem; border-radius: .25rem;  border-left-color: #d9534f !important"></p>
+  </div>
+</div>
+    
+  </div>
+  <div class="col-lg-4">
+    <div class="card" style="width: 100%;">
+  <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_162ab9b52a2%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_162ab9b52a2%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22118.06666564941406%22%20y%3D%2297.5%22%3E318x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Lanche da Noite</h4>
+  </div>
+  <div class="col-md-12">
+        <select id="w" class="h2" style="margin-top: 0px; margin-bottom: 0px; width: 80%; text-align: center;">
+            <option value="à vontade">Chá com adoçante</option>
+            <option value="à vontade">Café</option>
+            <option value="à vontade">Limonada</option>
+        </select>
+        <button type="button" onclick="qtdW()" class="btn btn-primary" style="margin-bottom: 15px; margin-left: 15px;">OK</button>
+        <script>
+			function qtdW() {
+				var x = document.getElementById("w").value;
+				document.getElementById("valor-w").innerHTML = x;
+			}
+		</script>
+  	</div>
+    <div class="col-md-12 text-center">
+  		<p id="valor-w" style="font-size:25px; border: 1px solid #eee;border-left-width: .50rem; border-radius: .25rem;  border-left-color: #d9534f !important"></p>
+  	</div>
+</div>
+    
+  </div>
+</div>
+	
+</section>
+<!-- FIM LANCHES -->
+
     
   <hr>
   <div class="row">
