@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap - Prebuilt Layout</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h1 class="text-center">Dieta de 1200 calorias</h1>
+    </div>
+  </div>
+  <hr>
+</div>
+<div class="container">
+  <div class="row text-center">
+    <div class="text-center col-md-12">Essa dieta de 1200 calorias é uma dieta alimentar hipocalórica que deve ser utilizada para que se consiga emagrecer com saúde. Nesta dieta as 1200 calorias devem ser distribuídas corretamente durante o dia inteiro e você não pode de forma alguma praticar exercícios intensos. Este plano de emagrecimento tem como objetivo que a pessoa consuma menos calorias por dia do que ela gasta, por exemplo, uma mulher adulta e sedentária gasta em torno de 1600 a 2000 calorias por dia, fazendo a dieta ela estará consumindo em torno de 400 a 800 calorias a menos e o resultado é a perda de peso.</div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="text-center col-md-12">
+      <div class="well"><h1> Café da Manhã</h1></div>
+    </div>
+  </div>
+  
+	<div class="row">
+      <div class="col-xs-12 col-md-3">
+        <p id="valor-h" style="font-size: 30px;"></p>
+        
+      </div>
+      <div class="col-md-9">
+        <select id="h" class="h2" style="margin-top: 0px; margin-bottom: 0px; width: 90%; text-align: center;">
+            <option value="1 copo (200 ml)">Leite integral</option>
+            <option value="1 1/2 copo (300 ml)">Leite desnatado</option>
+            <option value="1 copo (200 ml)">Iogurte natural</option>
+            <option value="1 copo (200 ml)">Coalhada</option>
+            <option value="1 colher (sopa)">Leite em pó</option>
+            <option value="2 colheres (sopa)">Leite pó desnat.</option>
+            <option value="1 fatia média">Queijo</option>
+            <option value="1 fatia grande">Ricota</option>
+        </select>
+        <button type="button" onclick="qtdH()" class="btn btn-primary" style="margin-bottom: 15px; margin-left: 15px;">OK</button>
+        <script>
+			function qtdH() {
+				var x = document.getElementById("h").value;
+				document.getElementById("valor-h").innerHTML = x;
+			}
+		</script>
+      </div>
+	</div>
+	<hr>
+    
+	<div class="row">
+      <div class="col-xs-12 col-md-3">
+        <p id="valor-f" style="font-size: 30px;"></p>
+        
+      </div>
+      <div class="col-md-9">
+        <select id="f" class="h2" style="margin-top: 0px; margin-bottom: 0px; width: 90%; text-align: center;">
+            <option value="1/2 unidade">Pão</option>
+            <option value="2 unidades">Bolacha salgada</option>
+            <option value="1 fatia">Pão de forma</option>
+            <option value="2 Fatias">Torrada</option>
+    	</select>
+        <button type="button" onclick="qtdF()" class="btn btn-primary" style="margin-bottom: 15px; margin-left: 15px;">OK</button>
+        <script>
+			function qtdF() {
+				var x = document.getElementById("f").value;
+				document.getElementById("valor-f").innerHTML = x;
+			}
+		</script>
+      </div>
+	</div>
+	<hr>
+    
+	<div class="row">
+      <div class="col-xs-12 col-md-3">
+        <p id="valor-z" style="font-size: 30px;"></p>
+        
+      </div>
+      <div class="col-md-9">
+        <select id="z" class="h2" style="margin-top: 0px; margin-bottom: 0px; width: 90%; text-align: center;">
+            <option value="1 colher (chá)">Margarina</option>
+            <option value="1 colher (chá)">Manteiga</option>
+            <option value="1 colher (chá)">Requeijão</option>
+    	</select>
+        <button type="button" onclick="qtdZ()" class="btn btn-primary" style="margin-bottom: 15px; margin-left: 15px;">OK</button>
+        <script>
+			function qtdZ() {
+				var x = document.getElementById("z").value;
+				document.getElementById("valor-z").innerHTML = x;
+			}
+		</script>
+      </div>
+	</div>
+	<hr>
+    
+	<div class="row">
+      <div class="col-xs-12 col-md-3">
+        <p id="valor-x" style="font-size: 30px;"></p>
+        
+      </div>
+      <div class="col-md-9">
+        <select id="x" class="h2" style="margin-top: 0px; margin-bottom: 0px; width: 90%; text-align: center;">
+            <option value="à vontade">Café com adoçante</option>
+            <option value="à vontade">Chá</option>
+            <option value="à vontade">Limonada Natural</option>
+    	</select>
+        <button type="button" onclick="qtdX()" class="btn btn-primary" style="margin-bottom: 15px; margin-left: 15px;">OK</button>
+        <script>
+			function qtdX() {
+				var x = document.getElementById("x").value;
+				document.getElementById("valor-x").innerHTML = x;
+			}
+		</script>
+      </div>
+	</div>
+	<hr>
+  <hr>
+  <div class="row">
+    <div class="text-center col-md-6 col-md-offset-3">
+      <h4>Cardápio v0.1</h4>
+      <p>Copyright &copy; 2018 &middot; Todos Direitos Reservados &middot; <a href="http://www.diegogarcia.com.br/" >GCIA</a></p>
+    </div>
+  </div>
+  <hr>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.2.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
